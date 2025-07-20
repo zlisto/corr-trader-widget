@@ -48,7 +48,7 @@ class CorrTraderSimulator:
         """
         
         initial_date = '2025-04-10' #filename initial date
-        final_date = '2025-07-12'  #filename final date
+        final_date = '2025-07-20'  #filename final date
         assert pd.to_datetime(start_date) < pd.to_datetime(stop_date), "Initial date must be before final date"
         assert pd.to_datetime(initial_date) <= pd.to_datetime(start_date), "Initial date must be before start date"
         assert pd.to_datetime(stop_date) <= pd.to_datetime(final_date), "Stop date must be before final date"
