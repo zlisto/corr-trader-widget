@@ -80,7 +80,7 @@ st.title("💖 Correlation Trading Simulator 💖")
 
 # Date selection
 start_date = st.date_input("Start Date", value=pd.to_datetime('2025-04-10').date(), min_value=pd.to_datetime('2025-04-10').date())
-stop_date = '2025-07-20'
+stop_date = '2025-07-30'
 
 # Set up simulator
 sim = CorrTraderSimulator(str(start_date), stop_date)
